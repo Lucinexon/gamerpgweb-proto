@@ -709,7 +709,7 @@ button{touch-action:manipulation}
   #telemetryCanvas{height:300px}
 }
 @media(pointer:coarse){
-  .tb{min-width:44px;height:44px}
+  .topbar .tb{min-width:34px;height:34px;padding:0 5px} /* Keeps topbar sleek on phones */
   .btn{min-height:44px}
   .navit{min-height:46px}
   .opt{min-height:48px}
